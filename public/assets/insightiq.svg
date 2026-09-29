@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="chartGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="135" x2="1200" y2="135"/>
+    <line x1="0" y1="270" x2="1200" y2="270"/>
+    <line x1="0" y1="405" x2="1200" y2="405"/>
+    <line x1="0" y1="540" x2="1200" y2="540"/>
+    <line x1="240" y1="0" x2="240" y2="675"/>
+    <line x1="480" y1="0" x2="480" y2="675"/>
+    <line x1="720" y1="0" x2="720" y2="675"/>
+    <line x1="960" y1="0" x2="960" y2="675"/>
+  </g>
+
+  <!-- UI Window Container -->
+  <rect x="80" y="60" width="1040" height="555" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  
+  <!-- Window Header -->
+  <path d="M 80 76 A 16 16 0 0 1 96 60 L 1104 60 A 16 16 0 0 1 1120 76 L 1120 110 L 80 110 Z" fill="#161b22"/>
+  <circle cx="115" cy="85" r="6" fill="#ff5f56"/>
+  <circle cx="135" cy="85" r="6" fill="#ffbd2e"/>
+  <circle cx="155" cy="85" r="6" fill="#27c93f"/>
+  <text x="200" y="90" fill="#8b949e" font-family="system-ui, sans-serif" font-size="13" font-weight="500">InsightIQ — AI-Powered Business Intelligence Platform</text>
+  
+  <!-- AI Chat Indicator -->
+  <rect x="940" y="75" width="150" height="24" rx="12" fill="#238636" fill-opacity="0.2" stroke="#238636" stroke-width="1"/>
+  <circle cx="955" cy="87" r="4" fill="#3fb950"/>
+  <text x="968" y="91" fill="#3fb950" font-family="system-ui, sans-serif" font-size="11" font-weight="600">CLAUDE AI ACTIVE</text>
+
+  <!-- Main Content Layout -->
+  <!-- Left Sidebar Navigation -->
+  <rect x="100" y="130" width="180" height="465" rx="8" fill="#161b22"/>
+  <rect x="115" y="150" width="150" height="32" rx="6" fill="#1f6feb" fill-opacity="0.2"/>
+  <text x="135" y="171" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="13" font-weight="600">📊 Overview</text>
+  <text x="135" y="215" fill="#8b949e" font-family="system-ui, sans-serif" font-size="13">📈 Anomaly Alerts</text>
+  <text x="135" y="255" fill="#8b949e" font-family="system-ui, sans-serif" font-size="13">🤖 AI Analyst Chat</text>
+  <text x="135" y="295" fill="#8b949e" font-family="system-ui, sans-serif" font-size="13">📄 Exec Reports</text>
+  <text x="135" y="335" fill="#8b949e" font-family="system-ui, sans-serif" font-size="13">💾 Datasets (CSV)</text>
+
+  <!-- Metric Cards -->
+  <g transform="translate(300, 130)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="250" height="100" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="20" y="30" fill="#8b949e" font-family="system-ui, sans-serif" font-size="12">TOTAL FORECAST REVENUE</text>
+    <text x="20" y="65" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="24" font-weight="700">$1,482,900</text>
+    <text x="165" y="65" fill="#3fb950" font-family="system-ui, sans-serif" font-size="12" font-weight="600">+24.8% ↑</text>
+
+    <!-- Card 2 -->
+    <rect x="270" y="0" width="250" height="100" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="290" y="30" fill="#8b949e" font-family="system-ui, sans-serif" font-size="12">ANOMALIES DETECTED</text>
+    <text x="290" y="65" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="24" font-weight="700">3 Resolved</text>
+    <text x="440" y="65" fill="#e3b341" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Auto-flagged</text>
+
+    <!-- Card 3 -->
+    <rect x="540" y="0" width="260" height="100" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="560" y="30" fill="#8b949e" font-family="system-ui, sans-serif" font-size="12">AI AGENT QUERIES</text>
+    <text x="560" y="65" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="24" font-weight="700">9 Schemas Sync</text>
+    <text x="730" y="65" fill="#a5d6ff" font-family="system-ui, sans-serif" font-size="12" font-weight="600">JWT Auth</text>
+  </g>
+
+  <!-- Big Graph Section -->
+  <g transform="translate(300, 250)">
+    <rect x="0" y="0" width="520" height="345" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="20" y="30" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Automated KPI Forecasting & Trend Analysis</text>
+    
+    <!-- Area Chart Gradient -->
+    <path d="M 30 280 L 30 210 Q 120 120 200 180 T 360 110 T 490 60 L 490 280 Z" fill="url(#chartGlow)"/>
+    <path d="M 30 210 Q 120 120 200 180 T 360 110 T 490 60" fill="none" stroke="url(#accent)" stroke-width="3.5"/>
+
+    <!-- Data Points -->
+    <circle cx="200" cy="180" r="5" fill="#818cf8" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="360" cy="110" r="5" fill="#a855f7" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="490" cy="60" r="6" fill="#c084fc" stroke="#ffffff" stroke-width="2"/>
+  </g>
+
+  <!-- AI Insights Panel -->
+  <g transform="translate(840, 250)">
+    <rect x="0" y="0" width="260" height="345" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="20" y="30" fill="#f0f6fc" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Claude AI Insight Log</text>
+    
+    <rect x="15" y="50" width="230" height="75" rx="6" fill="#0d1117" stroke="#1f6feb" stroke-width="1"/>
+    <text x="25" y="70" fill="#58a6ff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">💡 Customer Segmentation</text>
+    <text x="25" y="90" fill="#8b949e" font-family="system-ui, sans-serif" font-size="10">High-value enterprise segment increased by 18% in Q3.</text>
+
+    <rect x="15" y="140" width="230" height="75" rx="6" fill="#0d1117" stroke="#238636" stroke-width="1"/>
+    <text x="25" y="160" fill="#3fb950" font-family="system-ui, sans-serif" font-size="11" font-weight="600">⚡ Executive Report Ready</text>
+    <text x="25" y="180" fill="#8b949e" font-family="system-ui, sans-serif" font-size="10">One-click PDF generated with key anomaly summaries.</text>
+
+    <rect x="15" y="230" width="230" height="90" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <text x="25" y="250" fill="#d2a8ff" font-family="system-ui, sans-serif" font-size="11" font-weight="600">🛡️ Security & Auth</text>
+    <text x="25" y="270" fill="#8b949e" font-family="system-ui, sans-serif" font-size="10">JWT Token Rotation • Rate Limited REST APIs</text>
+  </g>
+</svg>
