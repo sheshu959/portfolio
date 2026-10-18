@@ -149,7 +149,7 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     category: "Databases",
-    skills: ["MySQL", "PowerBI"]
+    skills: ["MySQL", "PowerBI","Excel"]
   },
   {
     category: "Tools & Platforms",
@@ -158,6 +158,10 @@ export const skillCategories: SkillCategory[] = [
   {
     category: "Concepts",
     skills: ["Data Structures", "Oops"]
+  },
+  {
+    category: "Designing Tools",
+    skills: ["figma", "canva", "claude Ai"]
   }
 ];
 
