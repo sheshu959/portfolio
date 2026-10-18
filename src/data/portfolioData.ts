@@ -112,7 +112,30 @@ export const projects: Project[] = [
     image: "/assets/insightiq.png",
     github: "https://github.com/sheshu959",
     recognition: "Automated forecasting, anomaly detection, customer segmentation, and executive reporting platform."
-  }
+  },
+  
+  {
+    id: "nexora-headphones",
+    title: "NEXORA Headphones",
+    category: "Responsive Product Landing Page",
+    year: "2026",
+    description:
+      "Designed and developed a modern landing page for a fictional premium wireless headphone brand, showcasing product features, pricing, and a clean user interface.",
+    bulletPoints: [
+      "Built a responsive product landing page using HTML and CSS.",
+      "Designed product feature sections and pricing cards for a clear user experience.",
+      "Created a modern visual style suitable for a premium technology brand."
+    ],
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design"
+    ],
+    image: "https://raw.githubusercontent.com/sheshu959/nexora/main/nexora.png",
+    github: "https://github.com/sheshu959/nexora",
+    live: "https://sheshu959.github.io/nexora/"
+  },
 ];
 
 // STRICT RULE ENFORCED: Skills section contains ONLY technical skills explicitly listed in the resume's TECHNICAL SKILLS section.
