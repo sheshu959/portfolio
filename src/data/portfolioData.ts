@@ -129,7 +129,6 @@ export const projects: Project[] = [
     technologies: [
       "HTML",
       "CSS",
-      "JavaScript",
       "Responsive Design"
     ],
     image: "https://raw.githubusercontent.com/sheshu959/nexora/main/nexora.png",
