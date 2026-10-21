@@ -23,12 +23,6 @@ export interface Education {
   location: string;
   duration: string;
 }
-
-export interface Achievement {
-  title: string;
-  description: string;
-}
-
 export interface Certification {
   id: string;
   title: string;
@@ -38,6 +32,10 @@ export interface Certification {
   credentialUrl: string;
 }
 
+export interface Achievement {
+  title: string;
+  description: string;
+}
 
 export interface PersonalInfo {
   name: string;
