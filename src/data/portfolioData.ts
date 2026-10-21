@@ -29,6 +29,16 @@ export interface Achievement {
   description: string;
 }
 
+export interface Certification {
+  id: string;
+  title: string;
+  issuer: string;
+  date: string;
+  credentialId: string;
+  credentialUrl: string;
+}
+
+
 export interface PersonalInfo {
   name: string;
   location: string;
@@ -184,5 +194,17 @@ export const achievementsList: Achievement[] = [
     title: "InsightIQ Business Analytics Platform",
     description:
       "Developed InsightIQ, an AI-powered business analytics platform that automates forecasting, anomaly detection, customer segmentation, and executive reporting from uploaded datasets."
+  }
+];
+
+export const certifications: Certification[] = [
+  {
+    id: "thiranex-data-science",
+    title: "Data Science Internship",
+    issuer: "Thiranex EduTech LLP",
+    date: "07 Aug 2026 – 06 Sep 2026",
+    credentialId: "THX-AUG0726-464",
+    credentialUrl:
+      "/assets/certificates/Thiranex_Certificate_Data_science.pdf"
   }
 ];
