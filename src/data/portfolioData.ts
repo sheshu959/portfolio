@@ -24,7 +24,7 @@ export interface Education {
   duration: string;
 }
 
-export interface Certification {
+export interface Certifications {
   id: string;
   title: string;
   issuer: string;
