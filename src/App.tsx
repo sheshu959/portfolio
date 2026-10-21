@@ -22,6 +22,7 @@ export const App: React.FC = () => {
         <Projects />
         <Skills />
         <Education />
+        <Certifications />
         <Achievements />
         <Contact />
       </main>
