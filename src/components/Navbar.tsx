@@ -49,7 +49,7 @@ export const Navbar: React.FC = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-5">
+          <nav className="hidden lg:flex items-center space-x-9">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -65,7 +65,7 @@ export const Navbar: React.FC = () => {
           </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden lg:flex items-center space-x-5">
+          <div className="hidden lg:flex items-center space-x-4">
             <a
               href={`mailto:${personalInfo.email}`}
               className="inline-flex items-center space-x-2 text-xs font-mono uppercase tracking-wider text-black bg-white hover:bg-editorial-light px-4 py-2 rounded-full font-medium transition-transform duration-300 hover:scale-105 active:scale-95"
