@@ -49,7 +49,7 @@ export const Navbar: React.FC = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6">
+          <nav className="hidden lg:flex items-center space-x-5">
             {navLinks.map((link) => (
               <a
                 key={link.name}
