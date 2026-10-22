@@ -191,7 +191,7 @@ export const certifications: Certification[] = [
     date: "07 Aug 2026 – 06 Sep 2026",
     credentialId: "THX-AUG0726-464",
     credentialUrl:
-      "public/assets/certifications/Thiranex_Certificate_Data_science.pdf"
+      "/assets/certifications/Thiranex_Certificate_Data_science.pdf"
   }
 ];
 
